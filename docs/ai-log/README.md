@@ -9,8 +9,6 @@
 - Việc tôi làm: sửa README theo điểm 2, 3, 4, 7
 - Trạng thái: Draft (phản biện) → tôi duyệt và áp dụng
 
-
-
 ## 2026-11-02, soạn labs/README.md
 
 - Model: Claude (ghi đúng tên và phiên bản bạn thấy trong giao diện)
