@@ -1,4 +1,3 @@
-
 ## 2026-11-02, phản biện labs/README.md
 
 - Model: (tên và phiên bản đúng như hiển thị trong ô chọn model, không ghi "Auto")
@@ -14,4 +13,18 @@
 - Model: Claude (ghi đúng tên và phiên bản bạn thấy trong giao diện)
 - Mức: L2, soạn nháp mục đích và câu hỏi POC; phần còn lại do tôi chốt trước đó
 - Việc tôi làm: đọc lại, sửa (ghi chỗ đã sửa nếu có)
+- Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-03, hoàn thiện docs/00-process/experiment-protocol.md v1
+
+- Model: Claude và GPT (ghi đúng tên và phiên bản hiển thị trong giao diện)
+- Mức: L2, soạn nháp từ hai bản; tôi gộp và duyệt
+- Việc tôi làm: bỏ thang 0-5, bỏ phần trùng với file khác, giữ thang 0-2
+- Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-03, hoàn thiện experiment-protocol.md v1.1
+
+- Model: Claude Sonnet 5.5 (soạn nháp bản vá) sau phản biện của chính model này
+- Mức: L2, tôi đọc lại, điền harness và chỉnh ngưỡng
+- Việc tôi làm: Thêm các mục đã được phản biện bởi claude sonnet 5.5
 - Trạng thái: Draft → Approved bởi tôi
