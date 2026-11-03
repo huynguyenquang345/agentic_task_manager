@@ -1,9 +1,9 @@
-
 ---
 name: Gate review
 about: Biên bản duyệt một gate (G1 đến G8) hoặc milestone (M1 đến M4)
 labels: gate
 ---
+
 ## Gate
 
 - Mã gate và tên:
