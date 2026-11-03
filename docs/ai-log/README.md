@@ -28,3 +28,10 @@
 - Mức: L2, tôi đọc lại, điền harness và chỉnh ngưỡng
 - Việc tôi làm: Thêm các mục đã được phản biện bởi claude sonnet 5.5
 - Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-04, soạn docs/00-process/gates.md
+
+- Model: Claude Sonnet 5.5 (chat web)
+- Mức: L2, soạn nháp theo mục 3.1 của PDF; tôi điền vai trò và duyệt
+- Việc tôi làm: (ghi chỗ bạn đã sửa)
+- Trạng thái: Draft → Approved bởi tôi
