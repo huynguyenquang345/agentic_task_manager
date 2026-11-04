@@ -40,5 +40,5 @@
 
 - Model: Claude Sonnet 5.5 (chat web)
 - Mức: L2, soạn nháp theo mục 4.1 và 4.2; tôi điền bảng công cụ và duyệt
-- Việc tôi làm: (ghi chỗ bạn đã sửa)
+- Việc tôi làm: viết bản nháp cho safety-rules.md
 - Trạng thái: Draft → Approved bởi tôi
