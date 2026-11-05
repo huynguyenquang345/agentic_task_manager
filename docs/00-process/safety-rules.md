@@ -1,4 +1,3 @@
-
 # Quy tắc an toàn khi dùng AI
 
 ## Mục đích
@@ -67,9 +66,9 @@ Nếu lỡ lộ bí mật:
   ghi file hoặc truy cập mạng phải được ghi vào bảng dưới.
 - Agent chỉ chạy trong thư mục dự án; khi có thể dùng worktree để cô lập.
 
-| Công cụ, MCP server, skill được bật | Quyền (đọc, ghi, chạy lệnh, mạng) | Lý do cần   |
-| ----------------------------------------- | --------------------------------------- | ------------- |
-| (bạn điền)                             | (bạn điền)                           | (bạn điền) |
+| Công cụ, MCP server, skill được bật | Quyền (đọc, ghi, chạy lệnh, mạng) | Lý do cần |
+| ----------------------------------------- | --------------------------------------- | ----------- |
+| ...                                       | ...                                     | ...         |
 
 ## An toàn cho agent trong sản phẩm (labs và tool chính)
 
