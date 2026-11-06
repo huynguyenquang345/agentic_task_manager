@@ -36,7 +36,7 @@
 - Việc tôi làm: (ghi chỗ bạn đã sửa)
 - Trạng thái: Draft → Approved bởi tôi
 
-## 2026-11-04, soạn docs/00-process/safety-rules.md
+## 2026-11-05, soạn docs/00-process/safety-rules.md
 
 - Model: Claude Sonnet 5.5 (chat web)
 - Mức: L2, soạn nháp theo mục 4.1 và 4.2; tôi điền bảng công cụ và duyệt
