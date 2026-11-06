@@ -49,3 +49,13 @@
 - Mức: L2, soạn nháp theo mục 1 đến 4 của PDF; tôi điền cycle đầu tiên và duyệt
 - Việc tôi làm: create draft to compare
 - Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-04, hợp nhất sdlc-overview.md từ hai bản nháp
+
+- Model: Claude Sonnet 5.5 (chat web) và GPT-6 (ghi đúng tên hiển thị)
+- Mức: L2; tôi gộp, điền cycle đầu tiên và duyệt
+- Điều kiện: prompt không hoàn toàn giống nhau, không chấm mù (điểm dữ liệu tham khảo)
+- Nhận xét: bản GPT mạnh ở mô tả phase và quản lý thay đổi nhưng nhóm phase lệch PDF và trùng
+  lặp với file khác; bản Claude chính xác hơn nhưng quá gọn
+- Việc tôi làm: compare both reply version of GPT-6 and Claude then unite
+- Trạng thái: Draft → Approved bởi tôi
