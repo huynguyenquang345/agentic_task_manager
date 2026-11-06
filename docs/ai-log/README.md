@@ -42,3 +42,10 @@
 - Mức: L2, soạn nháp theo mục 4.1 và 4.2; tôi điền bảng công cụ và duyệt
 - Việc tôi làm: viết bản nháp cho safety-rules.md
 - Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-06, soạn docs/00-process/sdlc-overview.md
+
+- Model: Claude Sonnet 5.5 (chat web)
+- Mức: L2, soạn nháp theo mục 1 đến 4 của PDF; tôi điền cycle đầu tiên và duyệt
+- Việc tôi làm: create draft to compare
+- Trạng thái: Draft → Approved bởi tôi
