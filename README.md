@@ -45,15 +45,15 @@ Trạng thái dùng một trong: Chưa tạo, Draft, Verified, Approved.
 
 ## Cấu trúc repo
 
-| Thư mục / file    | Mục đích                                                                   |
-| ------------------- | ----------------------------------------------------------------------------- |
-| `docs/`           | Tài liệu quy trình và yêu cầu                                           |
-| `poc/`            | (Ghi rõ mục đích) Code POC là code bỏ đi, không đưa thẳng vào MVP |
-| `labs/`           | (Ghi rõ mục đích)                                                         |
-| `experiments/`    | (Ghi rõ mục đích)                                                         |
-| `.github/`        | Cấu hình repo, PR template, CI                                              |
-| `CODEOWNERS`      | Người duyệt các thay đổi theo thư mục                                 |
-| `CONTRIBUTING.md` | Cách đóng góp và quy ước làm việc                                    |
+| Thư mục / file    | Mục đích                                                                                                                                                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `docs/`           | Tài liệu quy trình và yêu cầu                                                                                                                                                                                                                           |
+| `poc/`            | Thử giả thuyết kỹ thuật của tool chính (agent tách việc có chạy được và đủ tin cậy không). Code bỏ đi, dữ liệu giả, không đưa thẳng vào MVP, chỉ bắt đầu sau G1.                                                            |
+| `labs/`           | Bài tập agent trong đời sống (cooking-agent, shopping-agent) để luyện đặt ràng buộc cứng, mức tự chủ và cổng duyệt trước khi áp dụng cho tool chính. Mỗi lab có yêu cầu, AC, dữ liệu giả và bảng điểm riêng. Code bỏ đi |
+| `experiments/`    | Dữ liệu so sánh hai model: prompt dùng chung, kết quả thô, scorecard. Quy tắc ở `docs/00-process/experiment-protocol.md`                                                                                                                           |
+| `.github/`        | Cấu hình repo, PR template, CI                                                                                                                                                                                                                              |
+| `CODEOWNERS`      | Người duyệt các thay đổi theo thư mục                                                                                                                                                                                                                 |
+| `CONTRIBUTING.md` | Cách đóng góp và quy ước làm việc                                                                                                                                                                                                                    |
 
 ## Đang chờ review
 
