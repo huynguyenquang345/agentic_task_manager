@@ -15,7 +15,7 @@ Tool quản lý công việc theo hướng agentic AI, phát triển theo quy tr
 
 ## Mục tiêu
 
-Xây dựng một tool quản lý công việc trong đó AI Agent là một phần của sản phẩm: nhận yêu cầu công việc, tách thành module/task, đề xuất ưu tiên và theo dõi tiến độ. Ở giai đoạn POC, mục tiêu chỉ là kiểm chứng một điều: agent tách việc có chạy được và đủ tin cậy không. Dự án cũng so sánh kết quả của hai model (GPT-4o và Claude) trên cùng một bài toán.
+Xây dựng một tool quản lý công việc trong đó AI Agent là một phần của sản phẩm: nhận yêu cầu công việc, tách thành module/task, đề xuất ưu tiên và theo dõi tiến độ. Ở giai đoạn POC, mục tiêu chỉ là kiểm chứng một điều: agent tách việc có chạy được và đủ tin cậy không. Dự án cũng so sánh kết quả của hai model (GPT-6 và Claude Sonnet 5.5) trên cùng một bài toán.
 
 ## Quy trình áp dụng
 
