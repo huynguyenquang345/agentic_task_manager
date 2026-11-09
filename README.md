@@ -1,4 +1,3 @@
-
 # agentic_task_manager
 
 Tool quản lý công việc theo hướng agentic AI, phát triển theo quy trình có AI tham gia (12 phase, 8 gate).
@@ -32,7 +31,7 @@ Các nguyên tắc giữ nguyên trong mọi giai đoạn:
 
 ## Trạng thái tài liệu
 
-Cập nhật bảng này mỗi khi tài liệu đổi trạng thái. Chỉ ghi Approved khi đã có người khác review và duyệt.
+Cập nhật bảng này mỗi khi tài liệu đổi trạng thái. Approved do tôi ký; nhờ người ngoài xem ở G1 và G2 khi có thể và duyệt.
 
 | Tài liệu                      | Phase      | Trạng thái | Gate | Người review |
 | ------------------------------- | ---------- | ------------ | ---- | -------------- |
