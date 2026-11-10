@@ -68,7 +68,9 @@ Chỉ người có thẩm quyền chuyển gate sang Approved. Kiểm tra tự �
 
 ## Chi tiết từng gate
 
-Mục "Người duyệt xem xét" là `[Đề xuất]`.
+Hai mục "Bằng chứng cần có" và "Người duyệt xem xét" là `[Đề xuất]`. Tài liệu gốc chỉ nêu
+điều kiện kiểm tra được và người ký; về bằng chứng, mục 1.3 chỉ nói người ký approve khi
+đã thấy bằng chứng (báo cáo kiểm tra, ma trận truy vết, kết quả test).
 
 ### G1: Duyệt yêu cầu
 
@@ -185,14 +187,15 @@ Mức AI theo `docs/00-process/ai-levels.md`. Riêng ở gate:
 
 Dự án một người, nên một người có thể đóng nhiều vai.
 
-| Vai trò theo tài liệu   | Ai đảm nhận trong dự án này             |
-| -------------------------- | --------------------------------------------- |
-| PO                         | (bạn điền)                                 |
-| Khách hàng hoặc Sponsor | (bạn điền: người đóng vai nghiệm thu) |
-| Architect, Tech Lead       | (bạn điền)                                 |
-| QA Lead                    | (bạn điền)                                 |
-| PM, Release Manager        | (bạn điền)                                 |
-| Security                   | (bạn điền)                                 |
+| Vai trò theo tài liệu   | Ai đảm nhận trong dự án này                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| PO                         | Tôi                                                                                                                |
+| Khách hàng hoặc Sponsor | Anh Tuấn Anh, ở G1 (đồng ý yêu cầu) và M2 (chốt scope). G6: bổ sung người dùng thử thật khi tới UAT |
+| Architect, Tech Lead       | Tôi                                                                                                                |
+| QA Lead                    | Tôi                                                                                                                |
+| PM, Release Manager        | Tôi                                                                                                                |
+| Security                   | Tôi (kiểm bằng checklist)                                                                                        |
+| Người review độc lập  | Anh Tuấn Anh, xem tài liệu ở G1 và G2                                                                          |
 
 ### Khu vực nào đi qua gate nào
 
@@ -232,12 +235,15 @@ Dự án một người, nên một người có thể đóng nhiều vai.
    Đóng Issue là sign-off.
 3. Sau G1 và G2, gắn tag (`srs-v1.0`, `design-v1.0`) để đóng băng baseline.
 4. Nếu AI giúp chuẩn bị bằng chứng, ghi vào `docs/ai-log/`.
+5. Người ngoài dự án (review độc lập, khách hàng) ghi sự đồng ý bằng bình luận trong Issue
+   của gate, kèm tên hoặc tài khoản GitHub và ngày. Bình luận đó là bằng chứng của sự đồng ý
+   hoặc review.
 
 ## Hạn chế khi làm một mình
 
 - Người làm cũng là người ký, nên nguyên tắc "người tạo không tự duyệt chính sản phẩm đó" chỉ
   được giữ một phần: sản phẩm do AI tạo thì tôi duyệt; sản phẩm do tôi tạo thì cần checklist
-  hoặc script viết sẵn và, khi có thể, một người ngoài dự án xem ở G1 và G2.
+  hoặc script viết sẵn và, người review độc lập xem ở G1 và G2 (xem bảng vai trò).
 - Bảo vệ nhánh `main` có thể không dùng được với repo riêng tư gói miễn phí. Khi đó giữ kỷ luật:
   mọi thay đổi qua pull request, CI xanh rồi mới merge.
 
