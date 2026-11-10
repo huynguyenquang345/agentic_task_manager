@@ -1,5 +1,4 @@
-﻿
-# Quy tắc thí nghiệm hai model
+﻿# Quy tắc thí nghiệm hai model
 
 ## Mục đích
 
@@ -18,10 +17,10 @@ Nguồn: tài liệu "Quy trình phát triển phần mềm có AI tham gia", m�
 
 ## Hai bên so sánh
 
-| Bên | Model  | Phiên bản (ghi đúng như hiển thị) | Harness (công cụ chạy agent) | Cách dùng                         |
-| ---- | ------ | ---------------------------------------- | ------------------------------- | ----------------------------------- |
-| A    | Claude | Sonnet 5.5                               | (điền trước khi chạy)      | Agents window, chọn model cụ thể |
-| B    | GPT    | GPT-6                                    | (điền trước khi chạy)      | Agents window, chọn model cụ thể |
+| Bên | Model  | Phiên bản (ghi đúng như hiển thị) | Harness (công cụ chạy agent) | Cách dùng                                   |
+| ---- | ------ | ---------------------------------------- | ------------------------------- | --------------------------------------------- |
+| A    | Claude | Sonnet 5.5                               | Chat web (claude.ai)            | Cuộc trò chuyện mới, chọn model cụ thể |
+| B    | GPT    | GPT-6                                    | Chat web (ChatGPT)              | Cuộc trò chuyện mới, chọn model cụ thể |
 
 Không dùng chế độ tự chọn model (Auto), vì không biết model nào đã trả lời.
 
@@ -51,10 +50,14 @@ Mọi lượt so sánh phải giống nhau ở các điểm sau:
 
 1. Cùng prompt, lấy nguyên văn từ `experiments/prompts-shared/`.
 2. Cùng đầu vào (cùng bộ ca mẫu, cùng dữ liệu giả, cùng file đính kèm).
-3. Cùng ngữ cảnh: mỗi ca chạy trong một session mới; chỉ đính kèm cùng các file như nhau;
-   cùng cấu hình Instructions, Skills, MCP trong Agents window (hoặc tắt hết ở cả hai bên).
+3. Cùng ngữ cảnh: mỗi ca chạy trong một cuộc trò chuyện mới; chỉ đính kèm cùng các file như
+   nhau; tắt hoặc bật như nhau các tính năng bổ sung (bộ nhớ, hướng dẫn tùy chỉnh, tìm kiếm
+   web, công cụ). Nếu chạy trong Agents window thì cùng cấu hình Instructions, Skills, MCP
+   (hoặc tắt hết ở cả hai bên).
 4. Cùng giới hạn: tối đa 3 vòng tự sửa, rồi dừng và báo người.
-5. Cùng mức AI cho cả hai bên (theo `docs/00-process/ai-levels.md`).
+5. Cùng mức AI cho cả hai bên (theo `docs/00-process/ai-levels.md`). Trần theo stage
+   (tài liệu gốc, mục 3.2): POC L3 đến L4 (code bỏ đi), Demo L3, MVP L2 đến L3 có gate.
+   Ca thuộc vùng nhạy cảm (thanh toán, đăng nhập, dữ liệu cá nhân) chạy tối đa L2 (mục 4.1).
 6. Không sửa prompt, đầu vào hay ngưỡng giữa chừng. Muốn đổi thì tạo phiên bản mới
    và chạy lại cho cả hai bên.
 
@@ -97,6 +100,13 @@ Kết quả của model không cố định. Vì vậy:
 - Ghi rõ số lần chạy trong scorecard.
 
 ## Chỉ số
+
+| Chỉ số (mục 4.1)                   | Cách tính                                                                       | Lấy số ở đâu                                    |
+| ------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Tỷ lệ tài liệu do AI soạn        | Số tài liệu có AI soạn nháp chia tổng số tài liệu đã duyệt trong kỳ | `docs/ai-log/`                                     |
+| Tỷ lệ tôi phải sửa lại          | Số mục ghi "sửa đáng kể" hoặc "làm lại" chia tổng số mục              | Trường "Việc tôi làm" trong `docs/ai-log/`    |
+| Số vòng tự sửa trung bình        | Trung bình số vòng, ghi cả số ca chạm giới hạn 3 vòng                    | Trường "Số vòng tự sửa" trong `docs/ai-log/` |
+| Tỷ lệ false positive của AI review | Số phát hiện tôi bác bỏ chia tổng số phát hiện AI nêu                  | Scorecard của đợt phản biện                     |
 
 Ba nhóm, định nghĩa chi tiết nằm trong `eval.md` của từng lab hoặc `docs/03-test/eval-plan.md`:
 
@@ -210,3 +220,6 @@ không sửa hồi tố:
 - v1.1, 03/11/2026: vá sau phản biện: thêm harness, chấm đối chứng, quy tắc điểm cho ca
   chạy nhiều lần, định nghĩa các kết luận, cách kiểm tra Verified, mục đợt một sản phẩm,
   ngưỡng tạm thời cho việc đổi mức AI; sửa lỗi hiển thị thẻ.
+- v1.2, 10/11/2026: điền harness (chat web), thêm trần mức AI theo stage và vùng nhạy cảm,
+  cách tính bốn chỉ số của mục 4.1, biện pháp người kiểm thứ hai, ghi chú chỗ lệch có chủ ý
+  so với tài liệu gốc.
