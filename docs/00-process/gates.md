@@ -257,4 +257,5 @@ Dự án một người, nên một người có thể đóng nhiều vai.
 
 ## Phiên bản
 
-- v1, (ngày): bản đầu, gộp từ hai bản nháp (Claude và GPT) và đối chiếu với tài liệu gốc.
+- v1, 03/11/2026: bản đầu, gộp từ hai bản nháp (Claude và GPT) và đối chiếu với tài liệu gốc.
+- v1.1, 10/11/2026: đánh dấu [Đề xuất] cho mục bằng chứng, điền vai trò, cập nhật ý về bảo vệ nhánh.
