@@ -66,3 +66,11 @@
 - Mức: L2, viết lại theo kết quả đối chiếu với PDF mục 4.1, 4.2 và các mục liên quan; tôi điền bảng công cụ và duyệt
 - Việc tôi làm: viết ngày chỉnh sửa ở cuối file markdown
 - Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-10, soạn nháp docs/01-requirements/acceptance-criteria.md
+
+- Model: Claude Sonnet 5.5 (chat web)
+- Mức: L2, soạn nháp khung và bộ AC theo tài liệu gốc; chưa có BRD và SRS của tôi
+- Việc tôi làm: Soạn nháp bản markdown của file acceptance-criteria để đối chiếu với GPT-6
+- Trạng thái: Draft (chờ FR được duyệt)
+- Ghi chú: mã FR là dự kiến, phải đồng bộ với srs.md
