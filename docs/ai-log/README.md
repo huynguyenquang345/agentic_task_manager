@@ -74,3 +74,13 @@
 - Việc tôi làm: Soạn nháp bản markdown của file acceptance-criteria để đối chiếu với GPT-6
 - Trạng thái: Draft (chờ FR được duyệt)
 - Ghi chú: mã FR là dự kiến, phải đồng bộ với srs.md
+
+## 2026-11-11, soạn nháp vision-brd.md, srs.md và prompt EXP-20261111-001
+
+- Mã đợt: EXP-20261111-001 (chưa chạy; đây là bước chuẩn bị)
+- Model và phiên bản: Claude Sonnet 5.5 (chat web)
+- Mức AI: L2
+- Prompt: experiments/prompts-shared/EXP-20261111-001-brd-srs.md
+- Việc tôi làm: Sửa lại các file markdown để đối chiếu sau này
+- Trạng thái: Draft
+- Ghi chú: bản của Claude trong cuộc trò chuyện này có đầy đủ ngữ cảnh nên không phải điểm dữ liệu có kiểm soát
