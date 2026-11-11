@@ -50,7 +50,7 @@
 - Việc tôi làm: create draft to compare
 - Trạng thái: Draft → Approved bởi tôi
 
-## 2026-11-04, hợp nhất sdlc-overview.md từ hai bản nháp
+## 2026-11-06, hợp nhất sdlc-overview.md từ hai bản nháp
 
 - Model: Claude Sonnet 5.5 (chat web) và GPT-6 (ghi đúng tên hiển thị)
 - Mức: L2; tôi gộp, điền cycle đầu tiên và duyệt
@@ -58,4 +58,11 @@
 - Nhận xét: bản GPT mạnh ở mô tả phase và quản lý thay đổi nhưng nhóm phase lệch PDF và trùng
   lặp với file khác; bản Claude chính xác hơn nhưng quá gọn
 - Việc tôi làm: compare both reply version of GPT-6 and Claude then unite
+- Trạng thái: Draft → Approved bởi tôi
+
+## 2026-11-10, hoàn thiện docs/00-process/safety-rules.md v1.1
+
+- Model: Claude Sonnet 5.5 (chat web)
+- Mức: L2, viết lại theo kết quả đối chiếu với PDF mục 4.1, 4.2 và các mục liên quan; tôi điền bảng công cụ và duyệt
+- Việc tôi làm: viết ngày chỉnh sửa ở cuối file markdown
 - Trạng thái: Draft → Approved bởi tôi
