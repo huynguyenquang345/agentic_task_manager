@@ -35,7 +35,7 @@ Cập nhật bảng này mỗi khi tài liệu đổi trạng thái. Approved do
 
 | Tài liệu                      | Phase      | Trạng thái | Gate | Người review |
 | ------------------------------- | ---------- | ------------ | ---- | -------------- |
-| Tổng quan quy trình áp dụng | Nền tảng | Chưa tạo   |      |                |
+| Tổng quan quy trình áp dụng | Nền tảng | Draft   |      |                |
 | Danh mục yêu cầu ứng viên  | P1–P3     | Chưa tạo   |      |                |
 | CR-001                          | P1         | Chưa tạo   |      |                |
 | SRS (FR, NFR, AC)               | P3         | Chưa tạo   | G1   |                |
