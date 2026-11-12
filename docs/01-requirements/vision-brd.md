@@ -30,8 +30,6 @@ S09). Phần đánh dấu `[Đề xuất]` là bổ sung cho dự án này, khô
 - Người dùng chính `[Giả định]`: cá nhân hoặc nhóm nhỏ quản lý công việc theo dự án. (bạn điền)
 - Vai trò `[Giả định]`: chủ dự án (tạo dự án, chấp nhận task nháp) và thành viên.
 
-
-
 ## Giá trị và KPI
 
 ### Giá trị kỳ vọng
