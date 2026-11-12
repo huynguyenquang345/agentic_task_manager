@@ -1,4 +1,3 @@
-
 # Tầm nhìn và phạm vi sản phẩm (BRD)
 
 ## Trạng thái
@@ -31,16 +30,34 @@ S09). Phần đánh dấu `[Đề xuất]` là bổ sung cho dự án này, khô
 - Người dùng chính `[Giả định]`: cá nhân hoặc nhóm nhỏ quản lý công việc theo dự án. (bạn điền)
 - Vai trò `[Giả định]`: chủ dự án (tạo dự án, chấp nhận task nháp) và thành viên.
 
+
+
 ## Giá trị và KPI
 
-`[Đề xuất]` Gợi ý để tôi chốt; ngưỡng do con người quyết định.
+### Giá trị kỳ vọng
 
-| KPI                                                         | Cách đo                         | Ngưỡng |
-| ----------------------------------------------------------- | --------------------------------- | -------- |
-| Vi phạm ràng buộc cứng của agent                       | Số ca vi phạm trên bộ ca mẫu | 0        |
-| Tỷ lệ task nháp được chấp nhận hoặc chỉ sửa nhẹ | Từ nhật ký và scorecard       | ...      |
-| Thời gian từ mục tiêu đến đề xuất                  | Đo trên bộ ca mẫu             | ...      |
-| Chi phí model mỗi lần chia việc                         | Từ nhật ký                     | ...      |
+- Với người dùng `[Giả định]`: bớt thời gian nghĩ và nhập danh sách task từ đầu, ít bỏ sót bước,
+  vẫn giữ quyền quyết định nhờ task nháp.
+- Với dự án: chứng minh hoặc bác bỏ bằng số liệu giả thuyết "agent tách việc đủ tin cậy ở mức
+  L2", và học cách dùng AI có kiểm soát.
+
+### KPI
+
+`[Đề xuất]` Ngưỡng do con người chốt (S07, S11). Đặt trước khi chạy, hiệu chỉnh bằng 3 đến 5 ca
+thử riêng, rồi khóa; muốn đổi thì tạo phiên bản mới và ghi lý do. Chỉ số của người dùng thật
+(quay lại dùng, mức hài lòng) đặt khi chốt scope MVP (M2).
+
+| KPI                                                                 | Cách đo                                                    | Ngưỡng POC                                                                                                      | Mục tiêu MVP                                                               | NFR liên quan      |
+| ------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------- |
+| K1. Vi phạm ràng buộc cứng                                      | Số ca vi phạm, mọi ca và mọi lần chạy                 | 0                                                                                                                 | 0 trên bộ ca từ khoảng 30 ca                                             | (ràng buộc cứng) |
+| K2. Task nháp được chấp nhận hoặc chỉ sửa nhẹ             | Task điểm 2 chia tổng task nháp                          | từ (bạn điền, gợi ý 60) phần trăm                                                                         | từ (bạn điền, gợi ý 80) phần trăm                                    | NFR-012             |
+| K3. Thời gian từ mục tiêu đến đề xuất                      | Trung vị và ca chậm nhất trên bộ ca mẫu               | trung vị không quá (bạn điền, gợi ý 15) giây; ca chậm nhất không quá (bạn điền, gợi ý 60) giây | (đo lại với người dùng thật)                                          | NFR-010             |
+| K4. Chi phí model mỗi lần chia việc                             | Từ nhật ký                                                | Chỉ ghi lại                                                                                                     | Ngân sách tháng (bạn điền) chia số lần dùng dự kiến (bạn điền) | NFR-011             |
+| K5. Thời gian đến danh sách task chính thức, so với làm tay | Bấm giờ 3 đến 5 mục tiêu, tự làm so với dùng agent | Không dài hơn làm tay                                                                                         | Giảm từ (bạn điền, gợi ý 30) phần trăm                              | (không)            |
+| K6. Số vòng tự sửa trung bình                                  | Từ nhật ký                                                | Trung bình không quá 2; không quá 1 trên 16 ca chạm 3 vòng                                                | (xét lại sau 2 đợt)                                                      | (không)            |
+
+Lưu ý mẫu nhỏ: 0 vi phạm trên 16 ca chỉ cho phép kết luận "chưa thấy vi phạm", không kết luận
+agent an toàn; MVP cần bộ ca lớn hơn.
 
 ## Phạm vi
 
@@ -122,3 +139,4 @@ cắt scope, không cắt chuẩn. Kế hoạch theo tuần: `docs/06-roadmap/pl
 ## Phiên bản
 
 - v0.1, 11/11/2026: bản nháp do Claude soạn và có chỉnh sửa bởi tôi, chưa duyệt.
+- v0.2, 12/11/2026: Chỉnh phần giá trị và KPI.
