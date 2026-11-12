@@ -89,6 +89,6 @@
 
 - Model: Claude Sonnet 5.5 (chat web)
 - Mức: L2, soạn nháp theo tài liệu gốc; Bảng 1 dựa trên srs.md và acceptance-criteria.md nháp
-- Việc tôi làm: (ghi chỗ bạn đã sửa)
+- Việc tôi làm: Xem qua file truy vết và chỉnh sửa
 - Trạng thái: Draft (chờ SRS được duyệt)
 - Ghi chú: mã AC trong file này là mã sau đồng bộ; acceptance-criteria.md vẫn dùng mã cũ cho tới khi duyệt SRS
